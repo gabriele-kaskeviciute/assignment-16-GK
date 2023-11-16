@@ -2,12 +2,12 @@
 
 var legalAge = 20;
 
-var clientAge = prompt("Koks yra kiento amžius?");
+var clientAge = prompt("Koks yra kliento amžius?");
 
 if (clientAge < legalAge) {
-  alert("Klientas napasiekęs " + legalAge);
+  alert("Kliento amžius napasiekęs " + legalAge);
 } else {
-  alert("Klientas pasiekęs " + legalAge);
+  alert("Kliento amžius pasiekęs " + legalAge);
 }
 console.log(clientAge);
 
